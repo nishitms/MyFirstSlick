@@ -39,7 +39,9 @@ object MyFirstSlick extends App {
     employees += (118, "Heroine", "Mumbai,India", "28/01/1984",1130.12,"A")
     employees += (119, "Saurabh", "Hyderabad, India", "28/04/1987",1200.4,"A")
     employees += (120, "Varun ", "Nagpur, India", "28/02/1969",1970.9,"A")
-
+    employees += (119, "Harsh", "Columbia", "28/04/1987",12.4,"A")
+    employees += (120, "Udit ", "Bangalore, India", "28/02/1969",1970.9,"A")
+    
     // Insert some department (using JDBC's batch insert feature)
     val departmentInsertResult: Option[Int] = department ++= Seq (
       ("M","Management",101),
